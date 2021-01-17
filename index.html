@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sketchpad</title>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="content">
+        <div id="size">
+            <div id="size-buttons-div">
+                <div id="canvas-size">Canvas size</div>
+                <button type="button" class="top-buttons" id="96">Large</button>
+                <button type="button" class="top-buttons" id="64">Medium</button>
+                <button type="button" class="top-buttons" id="32">Small</button>
+                <button type="button" class="top-buttons top-buttons-active" id="16">Tiny</button>
+            </div>
+            <button type="button" id="reset-button">Reset</button>
+        </div>
+        <div id="color-choice">
+            <div class="color-rows">
+                <button type="button" class="color-pick color-pick-active" id="black"></button>
+                <button type="button" class="color-pick" id="gray"></button>
+            </div>
+            <div class="color-rows">
+                <button type="button" class="color-pick" id="white"></button>
+                <button type="button" class="color-pick" id="antiquewhite"></button>
+            </div>
+            <div class="color-rows">
+                <button type="button" class="color-pick" id="yellow"></button>
+                <button type="button" class="color-pick" id="orange"></button>
+            </div>
+            <div class="color-rows">
+                <button type="button" class="color-pick" id="dodgerblue"></button>
+                <button type="button" class="color-pick" id="turquoise"></button>
+            </div>
+            <div class="color-rows">
+                <button type="button" class="color-pick" id="green"></button>
+                <button type="button" class="color-pick" id="lime"></button>
+            </div>
+            <div class="color-rows">
+                <button type="button" class="color-pick" id="red"></button>
+                <button type="button" class="color-pick" id="crimson"></button>
+            </div>
+            <div class="color-rows">
+                <button type="button" class="color-pick" id="orchid"></button>
+                <button type="button" class="color-pick" id="darkmagenta"></button>
+            </div>
+            <div class="color-rows">
+                <button type="button" class="color-pick" id="brown"></button>
+                <button type="button" class="color-pick" id="maroon"></button>
+            </div>
+        </div>
+        <div id="container"></div>
+        <p id="hint">Click to start and stop drawing</p>
+    </div>    
+    <script src="sketch.js">
+    </script>
+</body>
+</html>
